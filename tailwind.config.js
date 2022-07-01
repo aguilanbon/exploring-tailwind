@@ -10,7 +10,9 @@ module.exports = {
       'fb-border-color': '#CCD0D5',
       'fb-border-color2': '#DADDE1',
       'fb-border-color3': '#DDDFE2',
-      'fb-text-green': '#42B72A'
+      'fb-text-green': '#42B72A',
+      'fb-hv-green': '#3a9b26',
+      'fb-hv-blue': '#1867cf'
     },
       boxShadow: {
         'try': '0 0 10px #CCD0D5',
