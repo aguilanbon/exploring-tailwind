@@ -24,8 +24,13 @@
                                 <div class=" w-5 h-5 absolute bg-red-500 text-white rounded-full flex items-center justify-center -mt-1 right-0 -mr-1">
                                     <p class=" text-xs">4</p>
                                 </div>
-                                <div class=" w-4 h-4 absolute bg-gray-500 text-white rounded-full flex items-center justify-center align-middle mt-1 ml-1 hover:scale-125 hover:-mt-1 hover:-ml-1 hover:bg-white hover:text-gray-600 hover:opacity-100 hover:shadow-try2">
+                                <div data-tooltip-target="tooltip-default" class=" w-4 h-4 absolute bg-gray-500 text-white rounded-full flex items-center justify-center align-middle mt-1 ml-1 hover:scale-125 hover:-mt-1 hover:-ml-1 hover:bg-white hover:text-gray-600 hover:opacity-100 hover:shadow-try2" data-tooltip-target="tooltip">
                                     <p class=" text-xxs h-auto font-semibold -mt-1 hover:text-md">x</p>
+                                    
+
+                                   
+
+
                                 </div>
                                 <img class="object-cover h-full w-full rounded-t-md" src="../public/images/bon.jpg" alt="">
                                
@@ -119,5 +124,11 @@
             </div>
         </div>
     </div>
+    <div id="tooltip-default" role="tooltip" class=" absolute invisible z-10 py-2 px-3 text-white opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700">
+        <p class="text-xxs">Remove account from this page</p>
+        <div class="tooltip-arrow" data-popper-arrow></div>
+    </div>
+
+    <script src="../node_modules/flowbite/dist/flowbite.js"></script>
 </body>
 </html>
