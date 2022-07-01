@@ -2,4 +2,4 @@
 
 ### `My first brush using tailwind css`
 
-Tried making a facebook login page clone
+My take on Facebook login page clone using tailwind css
