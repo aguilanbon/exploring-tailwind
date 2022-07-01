@@ -17,6 +17,7 @@ module.exports = {
       boxShadow: {
         'try': '0 0 10px #CCD0D5',
         'try2': '0 0 20px #CCD0D5',
+        'inputShadow': '0 0 2px #1877F2',
       },
       fontSize: {
         'xxs': '.65rem'
