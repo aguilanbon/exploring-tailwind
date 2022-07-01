@@ -9,11 +9,12 @@
 </head>
 <body>
     <div class="flex flex-col w-screen h-screen bg-fb-background">
-        <div class="flex w-screen">
-            <div class="flex flex-col w-1/2 h-screen border-1 border-solid border-slate-50 items-center justify-center m-auto">
+        <div class="flex w-screen flex-col content-center items-center">
+            <div class="flex h-5/6 w-9/12 justify-center mt-6">
+            <div class="flex flex-col w-1/2 border-1 border-solid border-slate-50 items-center justify-center">
                <div class="flex flex-col justify-center item-start w-s">
                     <div class="flex flex-col">
-                        <h1 class="text-fb-logo text-4xl font-sans font-bold mb-2">facebook</h1>
+                        <h1 class="text-fb-logo text-3xl font-sans font-bold mb-2">facebook</h1>
                         <p class=" font-normal text-xl ">Recent Logins</p>
                         <p class="text-fb-text-gray text-sm">Click your picture or add an account.</p>
                     </div>
@@ -48,7 +49,19 @@
                     </div>
                </div>
             </div>
-            <div class="w-1/2">
+            <div class="w-1/2 flex flex-col justify-center items-center mt-28">
+                <div class=" h-auto w-80 bg-white p-3 rounded-md shadow-try flex flex-col items-center">
+                    <input type="text" name="" id="" class="w-full h-10 border border-solid border-fb-border-color2 rounded-md p-2 text-sm focus:outline-none focus:border-blue-500" placeholder="Email or phone number">
+                    <input type="password" name="" id="" class="w-full h-10 border border-solid border-fb-border-color2 rounded-md p-2 text-sm focus:outline-none focus:border-blue-500 mt-3" placeholder="Password">
+                    <button class="w-full mt-4 bg-fb-logo text-white rounded-md h-10 font-semibold">Log In</button>
+                    <a href="" class="text-xs mt-3 text-blue-500">Forgot Password?</a>
+                    <div class="w-full border-t border-fb-border-color3 mt-4"></div>
+                    <button class="w-auto text-white bg-fb-text-green mt-5 rounded-md h-10 font-bold text-sm pr-4 pl-4 mb-3">Create new account</button>
+                </div>
+                <div class="flex flex-col mt-6">
+                    <p class="text-xs"><strong>Create a Page</strong> for a celebrity, brand or business.</p>
+                </div>
+            </div>
             </div>
         </div>
     </div>
